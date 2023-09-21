@@ -1,0 +1,37 @@
+// main-container
+.main-container,
+.main-container-2 {
+    width: 100%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+@media (min-width: 640px) {
+
+    .main-container,
+    .main-container-2 {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .main-container {
+        max-width: $mainContainer;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .main-container-2 {
+        max-width: $mainContainer;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+}
